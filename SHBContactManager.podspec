@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/jiutianhuanpei/SHBContactManager.git", :tag => s.version }
   s.source_files  = "ContactManager/**/*"
-  #s.frameworks = "AVFoundation", "AVKit", "MediaPlayer", "UIKit"
+  s.frameworks = "AddressBook", "Contacts"
   s.requires_arc = true
 end
