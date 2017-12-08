@@ -6,7 +6,12 @@
 //  Copyright © 2017年 沈红榜. All rights reserved.
 //
 
+#if __has_include(<HYMediator/HYMediator.h>)
+#import <HYMediator/HYMediator.h>
+#else
 #import "HYMediator.h"
+#endif
+
 
 @interface HYMediator (ContactsModule)
 
