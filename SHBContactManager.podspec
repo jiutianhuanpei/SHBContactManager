@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.frameworks = "AddressBook", "Contacts"
   s.dependency  'HYMediator'
   s.xcconfig = {
-    'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/HYMediator
+    'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/HYMediator'
   }
   s.requires_arc = true
 end
