@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/jiutianhuanpei/SHBContactManager.git", :tag => s.version }
   s.source_files  = "ContactManager/**/*"
   s.frameworks = "AddressBook", "Contacts"
+  s.resources = ["QuickMarkModule/Image/*.png"]
   s.dependency  'HYMediator'
   s.xcconfig = {
     'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/HYMediator'
