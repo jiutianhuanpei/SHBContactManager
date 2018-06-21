@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SHBContactManager"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "本地通讯录读取模块"
   s.description  = <<-DESC
     读取本地通讯录，组件化封装，并区分 iOS9 以上或以下api，需要 xCode 9 以上打开。
